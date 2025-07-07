@@ -38,13 +38,13 @@ To use **proxy-checker** as a global command anywhere on your system without pre
 2. **Make the script executable:**
 
    ```bash
-   chmod +x proxy-check.sh
+   chmod +x proxy-checker.sh
    ```
 
 3. **Move the script to a directory in your PATH, for example `/usr/local/bin`:**
 
    ```bash
-   sudo mv proxy-check.sh /usr/local/bin/proxy-checker
+   sudo mv proxy-checker.sh /usr/local/bin/proxy-checker
    ```
 
 4. **Now you can run `proxy-checker` directly from any terminal:**
