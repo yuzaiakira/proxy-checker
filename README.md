@@ -81,13 +81,13 @@ proxy-checker [OPTIONS]
 * **Check default proxy and set environment variables:**
 
   ```bash
-  source proxy-checker
+   proxy-checker
   ```
 
 * **Check a custom proxy and save settings:**
 
   ```bash
-  source proxy-checker --host 192.168.1.100 --port 9050 --type socks5 --save
+  proxy-checker --host 192.168.1.100 --port 9050 --type socks5 --save
   ```
 
 * **Show proxy status only:**
