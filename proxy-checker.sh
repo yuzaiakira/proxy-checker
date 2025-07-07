@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Config file path
-CONFIG_FILE="$HOME/.proxy-check.conf"
+CONFIG_FILE="$HOME/.proxy-checker.conf"
 
 # Default values
 PROXY_HOST="127.0.0.1"
@@ -14,7 +14,7 @@ SAVE_CONFIG=false
 
 # Show help message
 show_help() {
-    echo "🛠️  Usage: proxy-check [OPTIONS]"
+    echo "🛠️  Usage: proxy-checker [OPTIONS]"
     echo ""
     echo "Options:"
     echo "  --host <host>      Set proxy host (default: 127.0.0.1)"
@@ -27,9 +27,9 @@ show_help() {
     echo "  -h, --help         Show this help message"
     echo ""
     echo "Examples:"
-    echo "  proxy-check --host 192.168.0.1 --port 9050 -s"
-    echo "  proxy-check --status"
-    echo "  proxy-check --reset"
+    echo "  proxy-checker --host 192.168.0.1 --port 9050 -s"
+    echo "  proxy-checker --status"
+    echo "  proxy-checker --reset"
 }
 
 # Load config from file if exists
